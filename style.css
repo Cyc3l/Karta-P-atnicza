@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.credit-card-container {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+
+#credit-card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.input-fields {
+    position: absolute;
+    top: 145px;
+    left: 85px;
+}
+
+input[type="text"] {
+    width: 180px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
